@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/home"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/tvAdminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Sección de Administrador"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCreateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E1A248"
+        android:text="Registrar Nuevo Curso" />
+
+    <Button
+        android:id="@+id/btnReadProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E1A248"
+        android:text="Consultar Curso"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/btnUpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E1A248"
+        android:text="Modificar Curso"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnDeleteProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E1A248"
+        android:text="Eliminar Curso"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnReadAllProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E1A248"
+        android:text="Consultar Lista de Cursos"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCreateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="Registrar Usuario"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/Inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E1A248"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center"
+        android:text="Inicio" />
+
+</LinearLayout>

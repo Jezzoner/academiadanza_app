@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:id="@+id/Update"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código"
+        android:inputType="text"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="text"
+        android:layout_below="@id/txtCodigo"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/txtDescripcion"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:inputType="text"
+        android:layout_below="@id/txtPrecio"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/txtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color"
+        android:inputType="text"
+        android:layout_below="@id/txtMarca"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGrabar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="Grabar"
+        android:layout_below="@id/txtColor"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textActualizarCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:text="Mantenimiento de Cursos"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/Inicio"
+        android:layout_width="117dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="780dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#E1A248"
+        android:text="Inicio" />
+
+</RelativeLayout>

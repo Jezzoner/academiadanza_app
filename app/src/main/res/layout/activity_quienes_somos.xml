@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="160dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="@drawable/home"
+    android:id="@+id/quienessomos">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quienes_somos_imagen" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Quienes Somos?"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:background="#E2E2E3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_sobre_nosotros"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="center"
+            android:background="#E2E2E3"/>
+
+        <Button
+            android:id="@+id/Inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E1A248"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="center"
+            android:text="Inicio" />
+    </LinearLayout>
+
+</ScrollView>

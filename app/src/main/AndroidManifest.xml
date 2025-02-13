@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AcademiaDanza">
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmpresaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewClientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CursosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuienesSomosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReservaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".InicioSesionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AcademiaDanza">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

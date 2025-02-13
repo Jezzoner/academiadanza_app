@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dance Academy Jezzoner</string>
+    <string name="title_activity_login">Inicio de Sesión</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Bienvenido !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_contac">Contáctenos</string>
+    <string name="contact">Jesús Daniel Castro\nTeléfono: 0998588563\nEmail: jesus@jezzoner.com</string>
+    <string name="descripcion_sobre_nosotros">El bailarín se nutre de su público, presentar lo que se ha trabajado es una parte esencial de la formación del bailarín. Durante nuestros 17 años hemos presentado shows en los mejores teatros de la ciudad, así como también presentaciones pequeñas a nuestra comunidad. \n \n Son los momentos más especiales para nuestros bailarines quienes aprenden las habilidades de presentarse frente a un público, empezando por su familia en casa.</string>
+</resources>

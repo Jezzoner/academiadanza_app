@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570894916931",
+    "project_id": "academiadanza-itb-cbd9c",
+    "storage_bucket": "academiadanza-itb-cbd9c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570894916931:android:8ae769e4f456950b0023f6",
+        "android_client_info": {
+          "package_name": "com.example.academiadanza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYUPqoXp_qjAcSfDayEEnBBaEWv7x95JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
